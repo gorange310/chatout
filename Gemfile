@@ -40,6 +40,11 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'rspec-rails', :group => [:development, :test]
 gem 'rails-controller-testing'
 
+# Sass-powered version of Semantic UI 
+gem 'semantic-ui-sass'
+gem 'jquery'
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
