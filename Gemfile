@@ -42,7 +42,8 @@ gem 'rails-controller-testing'
 
 # Sass-powered version of Semantic UI 
 gem 'semantic-ui-sass'
-gem 'jquery'
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
 
 
 group :development, :test do
