@@ -25,7 +25,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
@@ -44,6 +44,9 @@ gem 'rails-controller-testing'
 gem 'semantic-ui-sass'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+
+# rails console db table view, in console: $ Hirb.enable
+gem 'hirb'
 
 
 group :development, :test do
