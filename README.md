@@ -40,4 +40,4 @@ I expanded model: Comment, and RESTful for the routes. Guest can sign up and pos
 
 ## 3 table schema
 
-![image](images/schema_ui.png)
+![image](app/assets/images/schema_ui.png)
