@@ -1,14 +1,20 @@
-# Alpha Blog
+# Chat Out
 
-This is a blog app\
+This is a real-time Rails chat app\
 I'm currently a Ruby/Rails app developer, this is my personal project when I was learn from Udemy Course: the-complete-ruby-on-rails-developer-course.
 
-I followed RESTful conventions for my routes but since I was only utilizing certain functions, I added limitations to them.\
-Users can only be showed.\
-Stcoks can only be updated.\
-It isn't full CRUD but enough to implement the user stories required. There’s also room to expand in the future to for the other CRUD features.
+WebSocket\
+It can then use this channel to broadcast messages to all users who are ‘subscribed’ to the channel.
+Meaning they have the chat window open\
+All our users get real-time message updates as soon as they are created\
 
-I expanded model: Comment, and RESTful for the routes. Guest can sign up and post the comment on each post.
+- 1. Chatroom Channel
+  - This handles the server side
+  - Messages create action
+- 2. JavaScript(browser)
+  - Client side
+    - JS side where this received
+      - chatroom.coffee(coffeescript)
 
 ## 1 Development tools
 
